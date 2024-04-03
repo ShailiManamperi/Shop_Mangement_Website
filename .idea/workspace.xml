@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1668d6f8-a283-4394-b710-4811e83b129f" name="Changes" comment="update header section">
-      <change afterPath="$PROJECT_DIR$/src/components/Helmet/Helmet.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/home.css" afterDir="false" />
+    <list default="true" id="1668d6f8-a283-4394-b710-4811e83b129f" name="Changes" comment="update home section">
+      <change afterPath="$PROJECT_DIR$/src/services/Services.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/Services.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.jsx" afterDir="false" />
     </list>
@@ -68,7 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1712038085840</updated>
       <workItem from="1712038089559" duration="1254000" />
-      <workItem from="1712061815527" duration="12426000" />
+      <workItem from="1712061815527" duration="17120000" />
     </task>
     <task id="LOCAL-00001" summary="add pages">
       <created>1712063792311</created>
@@ -91,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712121385243</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update home section">
+      <created>1712124353176</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712124353176</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,6 +119,7 @@
     <MESSAGE value="add pages" />
     <MESSAGE value="add componenets" />
     <MESSAGE value="update header section" />
-    <option name="LAST_COMMIT_MESSAGE" value="update header section" />
+    <MESSAGE value="update home section" />
+    <option name="LAST_COMMIT_MESSAGE" value="update home section" />
   </component>
 </project>

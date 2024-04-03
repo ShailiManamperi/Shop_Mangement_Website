@@ -3,6 +3,7 @@ import React from "react";
 
 import Helmet from "../components/Helmet/Helmet";
 import '../style/home.css';
+import Services from "../services/Services";
 
 import { Container, Row , Col } from "reactstrap";
 import heroImg from '../assets/images/hero-img.png'
@@ -19,10 +20,7 @@ const Home = ()  => {
             <div className="hero__content">
               <p className="hero__subtitle">Trending product in {year}</p>
               <h2>Make Your Interior More Minimalistic & Modern </h2>
-              <p>n this practical react js project tutorial, I'm going to
-                teach you, step-by-step, how to create a full stack react
-                end of this video, you will know how to use the react-
-                redux toolkit, how to use firebase react redux toolkit</p>
+              <p>Discover quality furnishings at our inviting shop. From modern sofas to classic tables, find the perfect pieces for your home.</p>
               <motion.button whileTap={{scale: 1.2 }} className="buy_btn">
                 <Link to="/shop">SHOP NOW</Link>
               </motion.button>
@@ -36,6 +34,7 @@ const Home = ()  => {
         </Row>
       </Container>
     </section>
+    <Services/>
   </Helmet>
 };
 
