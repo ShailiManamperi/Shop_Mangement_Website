@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1668d6f8-a283-4394-b710-4811e83b129f" name="Changes" comment="update home section">
+    <list default="true" id="1668d6f8-a283-4394-b710-4811e83b129f" name="Changes" comment="update clock section">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Ui/Clock.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Ui/Clock.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1712038085840</updated>
       <workItem from="1712038089559" duration="1254000" />
-      <workItem from="1712061815527" duration="28833000" />
+      <workItem from="1712061815527" duration="30588000" />
     </task>
     <task id="LOCAL-00001" summary="add pages">
       <created>1712063792311</created>
@@ -124,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712423683832</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="update clock section">
+      <created>1712426397765</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1712426397765</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,6 +156,7 @@
     <MESSAGE value="update trending_product  section" />
     <MESSAGE value="Add countdown section" />
     <MESSAGE value="update home section" />
-    <option name="LAST_COMMIT_MESSAGE" value="update home section" />
+    <MESSAGE value="update clock section" />
+    <option name="LAST_COMMIT_MESSAGE" value="update clock section" />
   </component>
 </project>

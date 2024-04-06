@@ -18,6 +18,11 @@ const Home = ()  => {
 
   const [trendingProducts,settrendingProducts] = useState([])
   const [bestSalesProducts,setbestSalesProducts] = useState([])
+  const [mobileProducts,setmobileProducts] = useState([])
+  const [wirelessProducts,setwirelessProducts] = useState([])
+  const [popularProducts,setpopularProducts] = useState([])
+
+
   const year = new Date().getFullYear()
 
   useEffect(()=>{
@@ -27,9 +32,21 @@ const Home = ()  => {
     const filterBestSalesProduct = product.filter(
         (item)=> item.category === 'sofa'
     );
+    const filtermobileProducts = product.filter(
+        (item)=> item.category === 'mobile'
+    );
+    const filterwirelessProduct = product.filter(
+        (item)=> item.category === 'wireless'
+    );
+    const filterpopularProducts = product.filter(
+        (item)=> item.category === 'watch'
+    );
 
     settrendingProducts(filterdTrendigProduct);
     setbestSalesProducts(filterBestSalesProduct);
+    setmobileProducts(filtermobileProducts);
+    setwirelessProducts(filterwirelessProduct);
+    setpopularProducts(filterpopularProducts);
   },[]);
 
   return <Helmet title={'Home'}>
@@ -91,6 +108,27 @@ const Home = ()  => {
           <Col lg='6' md='6' className="text-end">
             <img src={counterImg} alt={""}/>
           </Col>
+        </Row>
+      </Container>
+    </section>
+    <section className="new__arrivals">
+      <Container>
+        <Row>
+          <Col lg='12' className="text-center mb-5">
+            <h2 className="section__title">New Arrivals</h2>
+          </Col>
+          <ProductList data={mobileProducts}/>
+          <ProductList data={wirelessProducts}/>
+        </Row>
+      </Container>
+    </section>
+    <section className="popular__category">
+      <Container>
+        <Row>
+          <Col lg='12' className="text-center mb-5">
+            <h2 className="section__title">Popular in Category</h2>
+          </Col>
+          <ProductList data={popularProducts}/>
         </Row>
       </Container>
     </section>
