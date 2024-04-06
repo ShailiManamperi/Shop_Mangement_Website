@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1668d6f8-a283-4394-b710-4811e83b129f" name="Changes" comment="update service  section">
-      <change afterPath="$PROJECT_DIR$/src/components/Ui/ProductCard.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Ui/ProductList.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/Product-card.css" afterDir="false" />
+    <list default="true" id="1668d6f8-a283-4394-b710-4811e83b129f" name="Changes" comment="update trending_product  section">
+      <change afterPath="$PROJECT_DIR$/src/components/Ui/Clock.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Ui/ProductCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Ui/ProductCard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Ui/ProductList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Ui/ProductList.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/home.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1712038085840</updated>
       <workItem from="1712038089559" duration="1254000" />
-      <workItem from="1712061815527" duration="23112000" />
+      <workItem from="1712061815527" duration="25910000" />
     </task>
     <task id="LOCAL-00001" summary="add pages">
       <created>1712063792311</created>
@@ -107,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712133211461</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update trending_product  section">
+      <created>1712420615664</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1712420615664</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +137,7 @@
     <MESSAGE value="update header section" />
     <MESSAGE value="update home section" />
     <MESSAGE value="update service  section" />
-    <option name="LAST_COMMIT_MESSAGE" value="update service  section" />
+    <MESSAGE value="update trending_product  section" />
+    <option name="LAST_COMMIT_MESSAGE" value="update trending_product  section" />
   </component>
 </project>
