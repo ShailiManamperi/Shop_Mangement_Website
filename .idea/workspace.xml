@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1668d6f8-a283-4394-b710-4811e83b129f" name="Changes" comment="update clock section">
+    <list default="true" id="1668d6f8-a283-4394-b710-4811e83b129f" name="Changes" comment="update home section">
+      <change afterPath="$PROJECT_DIR$/src/components/Footer/footer.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1712038085840</updated>
       <workItem from="1712038089559" duration="1254000" />
-      <workItem from="1712061815527" duration="30588000" />
+      <workItem from="1712061815527" duration="34480000" />
     </task>
     <task id="LOCAL-00001" summary="add pages">
       <created>1712063792311</created>
@@ -131,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712426397765</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="update home section">
+      <created>1712429973794</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1712429973794</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,8 +164,8 @@
     <MESSAGE value="update service  section" />
     <MESSAGE value="update trending_product  section" />
     <MESSAGE value="Add countdown section" />
-    <MESSAGE value="update home section" />
     <MESSAGE value="update clock section" />
-    <option name="LAST_COMMIT_MESSAGE" value="update clock section" />
+    <MESSAGE value="update home section" />
+    <option name="LAST_COMMIT_MESSAGE" value="update home section" />
   </component>
 </project>
