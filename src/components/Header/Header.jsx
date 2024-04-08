@@ -29,6 +29,7 @@ const Header = () =>{
 
     const headerRef = useRef(null)
 
+    const menuRef = useRef(null);
     const stickyHeaderFunc = () =>{
         window.addEventListener('scroll', ()=>{
             if(document.body.scrollTop >80 || document.documentElement.scrollTop > 80){
@@ -45,6 +46,8 @@ const Header = () =>{
         return () => window.removeEventListener("scroll",stickyHeaderFunc);
     });
 
+    const menuToggle = () => menuRef.current.classList.toggle('active__menu')
+
     return <header className={"header"} ref={headerRef}>
         <Container>
             <Row>
@@ -55,7 +58,7 @@ const Header = () =>{
                             <h1>Wimalasiri Furniture</h1>
                         </div>
                     </div>
-                        <div className="navigation">
+                        <div className="navigation" ref={menuRef} onClick={menuToggle}>
                             <ul className={"menu"}>
                                 {nav__link.map((item ,index)=>(
                                         <li className="nav__item" key={index}>
@@ -79,16 +82,13 @@ const Header = () =>{
                             <span>
                                 <motion.img whileTap={{scale: 1.2}} src={userIcon} alt="usericon"/>
                             </span>
-                        </div>
-
-                        <div className="mobile__menu">
-                            <span>
+                            <div className="mobile__menu">
+                            <span onClick={menuToggle}>
                                 <i className="ri-menu-line"></i>
                             </span>
+                            </div>
                         </div>
                 </div>
-
-
             </Row>
         </Container>
     </header>
