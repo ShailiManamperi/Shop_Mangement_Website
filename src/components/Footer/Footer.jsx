@@ -10,7 +10,7 @@ const Footer = () =>{
     return <footer className="footer">
         <Container>
             <Row>
-                <Col lg='4'>
+                <Col lg='4' className='mb-4' md='6'>
                     <div className="logo">
                         <div>
                             <h1 className="text-white">Wimalasiri Furniture</h1>
@@ -20,7 +20,7 @@ const Footer = () =>{
                         Discover quality furnishings at our inviting shop. From modern sofas to classic tables, find the perfect pieces for your home.
                     </p>
                 </Col>
-                <Col lg='3'>
+                <Col lg='3' md='3' className='mb-4' >
                     <div className="footer__quick-links">
                         <h4 className="quick__links-titles">Top Category</h4>
                         <ListGroup className="mb-3">
@@ -43,7 +43,7 @@ const Footer = () =>{
                         </ListGroup>
                     </div>
                 </Col>
-                <Col lg='2'>
+                <Col lg='2' md='3' className='mb-4'>
                     <div className="footer__quick-links">
                         <h4 className="quick__links-titles">Useful Links</h4>
                         <ListGroup>
@@ -63,7 +63,7 @@ const Footer = () =>{
                     </div>
 
                 </Col>
-                <Col lg='3'>
+                <Col lg='3' md='4'>
                     <div className="footer__quick-links">
                         <h4 className="quick__links-titles">Contact</h4>
                         <ListGroup className="footer__contact">

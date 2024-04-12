@@ -95,17 +95,19 @@ const Home = ()  => {
     <section className="timer__count">
       <Container>
         <Row>
-          <Col lg='6' md='6'>
+          <Col lg='6' md='12' className='count__down-col'>
             <div className="clock__top-content">
               <h4 className="text-white fs-6 mb-2">Limit offers</h4>
               <h3 className="text-white fs-5 mb-3">Quality Armchair</h3>
             </div>
             <Clock/>
-            <motion.button whileTap={{scale:1.2}} className="buy_btn store__btn">
+            <motion.button
+                whileTap={{scale:1.2}}
+                className="buy_btn store__btn">
               <Link to="/shop">Visit Stores</Link>
             </motion.button>
           </Col>
-          <Col lg='6' md='6' className="text-end">
+          <Col lg='6' md='12' className="text-end counter__img">
             <img src={counterImg} alt={""}/>
           </Col>
         </Row>
