@@ -4,16 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1668d6f8-a283-4394-b710-4811e83b129f" name="Changes" comment="update header section with media query">
-      <change afterPath="$PROJECT_DIR$/src/style/clock.css" afterDir="false" />
+    <list default="true" id="1668d6f8-a283-4394-b710-4811e83b129f" name="Changes" comment="bulid add to cart function">
+      <change afterPath="$PROJECT_DIR$/src/redux/slices/cartSlice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Ui/Clock.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Ui/Clock.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/Services.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/Services.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/Product-card.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/Product-card.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Ui/ProductCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Ui/ProductCard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Ui/ProductList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Ui/ProductList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -75,7 +72,8 @@
       <workItem from="1712038089559" duration="1254000" />
       <workItem from="1712061815527" duration="42385000" />
       <workItem from="1712683936144" duration="1185000" />
-      <workItem from="1712890621782" duration="3620000" />
+      <workItem from="1712890621782" duration="16918000" />
+      <workItem from="1713154836527" duration="1010000" />
     </task>
     <task id="LOCAL-00001" summary="add pages">
       <created>1712063792311</created>
@@ -168,7 +166,21 @@
       <option name="project" value="LOCAL" />
       <updated>1712559964776</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="update stylesheets">
+      <created>1712908819680</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1712908819680</updated>
+    </task>
+    <task id="LOCAL-00015" summary="update view files">
+      <created>1712908847881</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1712908847881</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,6 +208,9 @@
     <MESSAGE value="update header section" />
     <MESSAGE value="update footer section" />
     <MESSAGE value="update header section with media query" />
-    <option name="LAST_COMMIT_MESSAGE" value="update header section with media query" />
+    <MESSAGE value="update stylesheets" />
+    <MESSAGE value="update view files" />
+    <MESSAGE value="bulid add to cart function" />
+    <option name="LAST_COMMIT_MESSAGE" value="bulid add to cart function" />
   </component>
 </project>
