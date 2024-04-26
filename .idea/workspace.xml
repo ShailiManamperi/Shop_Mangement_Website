@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1668d6f8-a283-4394-b710-4811e83b129f" name="Changes" comment="bulid add to cart function">
+    <list default="true" id="1668d6f8-a283-4394-b710-4811e83b129f" name="Changes" comment="add alert box funtion">
+      <change afterPath="$PROJECT_DIR$/src/components/Ui/CommonSection.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/comman-section.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/shop.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Ui/ProductCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Ui/ProductCard.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/slices/cartSlice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/slices/cartSlice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Shop.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Shop.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -73,7 +73,10 @@
       <workItem from="1712061815527" duration="42385000" />
       <workItem from="1712683936144" duration="1185000" />
       <workItem from="1712890621782" duration="16918000" />
-      <workItem from="1713154836527" duration="1802000" />
+      <workItem from="1713154836527" duration="1959000" />
+      <workItem from="1713161444627" duration="9708000" />
+      <workItem from="1713191088279" duration="1372000" />
+      <workItem from="1714129071461" duration="411000" />
     </task>
     <task id="LOCAL-00001" summary="add pages">
       <created>1712063792311</created>
@@ -187,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713159747841</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="add alert box funtion">
+      <created>1713160653050</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1713160653050</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,6 +228,7 @@
     <MESSAGE value="update stylesheets" />
     <MESSAGE value="update view files" />
     <MESSAGE value="bulid add to cart function" />
-    <option name="LAST_COMMIT_MESSAGE" value="bulid add to cart function" />
+    <MESSAGE value="add alert box funtion" />
+    <option name="LAST_COMMIT_MESSAGE" value="add alert box funtion" />
   </component>
 </project>
