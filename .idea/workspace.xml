@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1668d6f8-a283-4394-b710-4811e83b129f" name="Changes" comment="add alert box funtion">
-      <change afterPath="$PROJECT_DIR$/src/components/Ui/CommonSection.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/comman-section.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/shop.css" afterDir="false" />
+    <list default="true" id="1668d6f8-a283-4394-b710-4811e83b129f" name="Changes" comment="fixed cart count">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Ui/ProductCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Ui/ProductCard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ProductDetail.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProductDetail.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Shop.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Shop.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/Router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/Router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/comman-section.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/comman-section.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +76,9 @@
       <workItem from="1713154836527" duration="1959000" />
       <workItem from="1713161444627" duration="9708000" />
       <workItem from="1713191088279" duration="1372000" />
-      <workItem from="1714129071461" duration="411000" />
+      <workItem from="1714129071461" duration="6426000" />
+      <workItem from="1715076636336" duration="950000" />
+      <workItem from="1716695843344" duration="4061000" />
     </task>
     <task id="LOCAL-00001" summary="add pages">
       <created>1712063792311</created>
@@ -197,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713160653050</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="fixed cart count">
+      <created>1714130103502</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1714130103502</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,6 +238,7 @@
     <MESSAGE value="update view files" />
     <MESSAGE value="bulid add to cart function" />
     <MESSAGE value="add alert box funtion" />
-    <option name="LAST_COMMIT_MESSAGE" value="add alert box funtion" />
+    <MESSAGE value="fixed cart count" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed cart count" />
   </component>
 </project>

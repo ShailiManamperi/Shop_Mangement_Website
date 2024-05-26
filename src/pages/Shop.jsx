@@ -27,6 +27,36 @@ const Shop = () =>{
             );
             setProductsData(filteredProducts);
         }
+
+        if (filter === 'chair'){
+            const filteredProducts = products.filter(
+                (item) => item.category === 'chair'
+            );
+            setProductsData(filteredProducts);
+        }
+
+        if (filter === 'watch'){
+            const filteredProducts = products.filter(
+                (item) => item.category === 'watch'
+            );
+            setProductsData(filteredProducts);
+        }
+
+        if (filter === 'wireless'){
+            const filteredProducts = products.filter(
+                (item) => item.category === 'wireless'
+            );
+            setProductsData(filteredProducts);
+        }
+    }
+
+    const handleSearch = e =>{
+        const searchTerm = e.target.value
+
+        const searchedProducts = products.filter(item =>
+            item.productName.toLowerCase().includes(searchTerm.toLowerCase()))
+
+        setProductsData(searchedProducts)
     }
 
     return(
@@ -58,18 +88,23 @@ const Shop = () =>{
                         </Col>
                         <Col lg='6' md='6'>
                             <div className="search__box">
-                                <input type="text" placeholder="Search....."/>
-                                <span><i class="ri-search-line"></i></span>
+                                <input type="text" placeholder="Search....." onChange={handleSearch} />
+                                <span><i className="ri-search-line"></i></span>
                             </div>
                         </Col>
                     </Row>
                 </Container>
             </section>
-            <section>
+
+            <section className = "pt-0">
                 <Container>
                     <Row>
                         {
-                            productsData.length === 0 ? <h1>No Products are found!</h1> : <ProductList data={productsData}/>
+                            productsData.length === 0 ?(
+                                <h1 className="text-center fs-4">No Products are found!</h1>
+                            ):(
+                                <ProductList data={productsData}/>
+                            )
                         }
                     </Row>
                 </Container>
