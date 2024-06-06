@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1668d6f8-a283-4394-b710-4811e83b129f" name="Changes" comment="add tailwind css to project">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ProductDetail.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProductDetail.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/product-detail.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/product-detail.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+    <list default="true" id="1668d6f8-a283-4394-b710-4811e83b129f" name="Changes" comment="update rating part in product-detail">
+      <change beforePath="$PROJECT_DIR$/src/style/comman-section.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/comman-section.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +74,7 @@
       <workItem from="1714129071461" duration="6426000" />
       <workItem from="1715076636336" duration="950000" />
       <workItem from="1716695843344" duration="9861000" />
-      <workItem from="1717566900182" duration="10553000" />
+      <workItem from="1717566900182" duration="10856000" />
     </task>
     <task id="LOCAL-00001" summary="add pages">
       <created>1712063792311</created>
@@ -226,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1717581427810</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="update rating part in product-detail">
+      <created>1717650672570</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1717650672570</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,6 +266,7 @@
     <MESSAGE value="update with ProductDetail frame" />
     <MESSAGE value="update with ProductDetail frame 2" />
     <MESSAGE value="add tailwind css to project" />
-    <option name="LAST_COMMIT_MESSAGE" value="add tailwind css to project" />
+    <MESSAGE value="update rating part in product-detail" />
+    <option name="LAST_COMMIT_MESSAGE" value="update rating part in product-detail" />
   </component>
 </project>
