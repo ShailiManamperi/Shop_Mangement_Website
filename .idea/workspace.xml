@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1668d6f8-a283-4394-b710-4811e83b129f" name="Changes" comment="update rating part in product-detail">
-      <change beforePath="$PROJECT_DIR$/src/style/comman-section.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/comman-section.css" afterDir="false" />
+    <list default="true" id="1668d6f8-a283-4394-b710-4811e83b129f" name="Changes" comment="update with media queruy">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Shop.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Shop.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/shop.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/shop.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +76,7 @@
       <workItem from="1714129071461" duration="6426000" />
       <workItem from="1715076636336" duration="950000" />
       <workItem from="1716695843344" duration="9861000" />
-      <workItem from="1717566900182" duration="10856000" />
+      <workItem from="1717566900182" duration="11888000" />
     </task>
     <task id="LOCAL-00001" summary="add pages">
       <created>1712063792311</created>
@@ -230,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1717650672570</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="update with media queruy">
+      <created>1717653882515</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1717653882515</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,6 +276,7 @@
     <MESSAGE value="update with ProductDetail frame 2" />
     <MESSAGE value="add tailwind css to project" />
     <MESSAGE value="update rating part in product-detail" />
-    <option name="LAST_COMMIT_MESSAGE" value="update rating part in product-detail" />
+    <MESSAGE value="update with media queruy" />
+    <option name="LAST_COMMIT_MESSAGE" value="update with media queruy" />
   </component>
 </project>
