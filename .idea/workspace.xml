@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1668d6f8-a283-4394-b710-4811e83b129f" name="Changes" comment="update product-detail">
+    <list default="true" id="1668d6f8-a283-4394-b710-4811e83b129f" name="Changes" comment="update cart (show in table)">
       <change afterPath="$PROJECT_DIR$/src/style/cart.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Ui/ProductCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Ui/ProductCard.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Cart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Cart.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/slices/cartSlice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/slices/cartSlice.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +78,7 @@
       <workItem from="1714129071461" duration="6426000" />
       <workItem from="1715076636336" duration="950000" />
       <workItem from="1716695843344" duration="9861000" />
-      <workItem from="1717566900182" duration="23055000" />
+      <workItem from="1717566900182" duration="29549000" />
     </task>
     <task id="LOCAL-00001" summary="add pages">
       <created>1712063792311</created>
@@ -254,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1717755805666</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="update header with navigate part">
+      <created>1717759175778</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1717759175778</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,6 +302,8 @@
     <MESSAGE value="update with media queruy" />
     <MESSAGE value="update with media queruy 2" />
     <MESSAGE value="update product-detail" />
-    <option name="LAST_COMMIT_MESSAGE" value="update product-detail" />
+    <MESSAGE value="update header with navigate part" />
+    <MESSAGE value="update cart (show in table)" />
+    <option name="LAST_COMMIT_MESSAGE" value="update cart (show in table)" />
   </component>
 </project>
