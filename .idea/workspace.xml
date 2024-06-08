@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1668d6f8-a283-4394-b710-4811e83b129f" name="Changes" comment="update cart (with subtotal)">
-      <change afterPath="$PROJECT_DIR$/src/style/checkout.css" afterDir="false" />
+    <list default="true" id="1668d6f8-a283-4394-b710-4811e83b129f" name="Changes" comment="add login.css">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Checkout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Checkout.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Login.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/SignUp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SignUp.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/login.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +77,7 @@
       <workItem from="1714129071461" duration="6426000" />
       <workItem from="1715076636336" duration="950000" />
       <workItem from="1716695843344" duration="9861000" />
-      <workItem from="1717566900182" duration="34049000" />
+      <workItem from="1717566900182" duration="39112000" />
     </task>
     <task id="LOCAL-00001" summary="add pages">
       <created>1712063792311</created>
@@ -274,7 +275,35 @@
       <option name="project" value="LOCAL" />
       <updated>1717778925989</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="add checkout.css">
+      <created>1717781580153</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1717781580153</updated>
+    </task>
+    <task id="LOCAL-00030" summary="update checkout section">
+      <created>1717781619010</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1717781619010</updated>
+    </task>
+    <task id="LOCAL-00031" summary="update checkout section 2">
+      <created>1717838314196</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1717838314196</updated>
+    </task>
+    <task id="LOCAL-00032" summary="add login.css">
+      <created>1717838454419</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1717838454419</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,10 +321,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add pages" />
-    <MESSAGE value="add componenets" />
-    <MESSAGE value="update service  section" />
-    <MESSAGE value="update trending_product  section" />
     <MESSAGE value="Add countdown section" />
     <MESSAGE value="update clock section" />
     <MESSAGE value="update home section" />
@@ -317,6 +342,10 @@
     <MESSAGE value="update header with navigate part" />
     <MESSAGE value="update cart (show in table)" />
     <MESSAGE value="update cart (with subtotal)" />
-    <option name="LAST_COMMIT_MESSAGE" value="update cart (with subtotal)" />
+    <MESSAGE value="add checkout.css" />
+    <MESSAGE value="update checkout section" />
+    <MESSAGE value="update checkout section 2" />
+    <MESSAGE value="add login.css" />
+    <option name="LAST_COMMIT_MESSAGE" value="add login.css" />
   </component>
 </project>
