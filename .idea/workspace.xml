@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1668d6f8-a283-4394-b710-4811e83b129f" name="Changes" comment="add login.css">
-      <change afterPath="$PROJECT_DIR$/src/api.js" afterDir="false" />
+    <list default="true" id="1668d6f8-a283-4394-b710-4811e83b129f" name="Changes" comment="update files">
+      <change afterPath="$PROJECT_DIR$/backend/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +95,7 @@
       <workItem from="1716695843344" duration="9861000" />
       <workItem from="1717566900182" duration="39112000" />
       <workItem from="1718040941935" duration="2024000" />
+      <workItem from="1718044332752" duration="1273000" />
     </task>
     <task id="LOCAL-00001" summary="add pages">
       <created>1712063792311</created>
@@ -321,7 +321,14 @@
       <option name="project" value="LOCAL" />
       <updated>1717838454419</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="update files">
+      <created>1718044528893</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1718044528894</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -339,7 +346,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add countdown section" />
     <MESSAGE value="update clock section" />
     <MESSAGE value="update home section" />
     <MESSAGE value="update header section" />
@@ -364,6 +370,7 @@
     <MESSAGE value="update checkout section" />
     <MESSAGE value="update checkout section 2" />
     <MESSAGE value="add login.css" />
-    <option name="LAST_COMMIT_MESSAGE" value="add login.css" />
+    <MESSAGE value="update files" />
+    <option name="LAST_COMMIT_MESSAGE" value="update files" />
   </component>
 </project>
