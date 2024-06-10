@@ -11,10 +11,25 @@ const port = process.env.PORT || 8000
 
 
 
-//for testing
+/*//for testing
 app.get('/',(req,res)=>{
     res.send("api working...");
-})
+})*/
+
+//database connection
+mongoose.set('strictQuery',false);
+const connect = async ()=>{
+    try{
+        await mongoose.connect(process.env.MONGO_URI,{
+            useNewUrlParser:true,
+            useUnifiedTopology:true
+        })
+        console.log("MongoDb database connected..");
+    }catch (err){
+        console.log("MongoDb database not connected..");
+    }
+}
+
 
 
 //middleware
@@ -24,5 +39,6 @@ app.use(cookieParser())
 
 
 app.listen(port, ()=>{
+    connect();
     console.log('server listening on port...',port)
 })
