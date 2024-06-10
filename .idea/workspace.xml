@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1668d6f8-a283-4394-b710-4811e83b129f" name="Changes" comment="adding backend files">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/.env" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="1668d6f8-a283-4394-b710-4811e83b129f" name="Changes" comment="mongodb database connection setting" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,7 +91,7 @@
       <workItem from="1716695843344" duration="9861000" />
       <workItem from="1717566900182" duration="39112000" />
       <workItem from="1718040941935" duration="2024000" />
-      <workItem from="1718044332752" duration="2533000" />
+      <workItem from="1718044332752" duration="2749000" />
     </task>
     <task id="LOCAL-00001" summary="add pages">
       <created>1712063792311</created>
@@ -335,7 +331,14 @@
       <option name="project" value="LOCAL" />
       <updated>1718045913911</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="mongodb database connection setting">
+      <created>1718047019041</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1718047019041</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -353,7 +356,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update home section" />
     <MESSAGE value="update header section" />
     <MESSAGE value="update footer section" />
     <MESSAGE value="update header section with media query" />
@@ -378,6 +380,7 @@
     <MESSAGE value="add login.css" />
     <MESSAGE value="update files" />
     <MESSAGE value="adding backend files" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding backend files" />
+    <MESSAGE value="mongodb database connection setting" />
+    <option name="LAST_COMMIT_MESSAGE" value="mongodb database connection setting" />
   </component>
 </project>
