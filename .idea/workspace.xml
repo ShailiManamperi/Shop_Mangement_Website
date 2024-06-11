@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1668d6f8-a283-4394-b710-4811e83b129f" name="Changes" comment="update env file with database name">
+    <list default="true" id="1668d6f8-a283-4394-b710-4811e83b129f" name="Changes" comment="finish user controller (work by postman)">
+      <change afterPath="$PROJECT_DIR$/backend/controllers/authController.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/backend/node_modules/sift/src/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/routes/users.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/routes/auth.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/controllers/userController.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/userController.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/models/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/User.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +99,7 @@
       <workItem from="1716695843344" duration="9861000" />
       <workItem from="1717566900182" duration="39112000" />
       <workItem from="1718040941935" duration="2024000" />
-      <workItem from="1718044332752" duration="12474000" />
+      <workItem from="1718044332752" duration="18077000" />
     </task>
     <task id="LOCAL-00001" summary="add pages">
       <created>1712063792311</created>
@@ -430,7 +430,14 @@
       <option name="project" value="LOCAL" />
       <updated>1718088683935</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="finish user controller (work by postman)">
+      <created>1718093060485</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1718093060485</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -448,7 +455,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fixed cart count" />
     <MESSAGE value="update with ProductDetail frame" />
     <MESSAGE value="update with ProductDetail frame 2" />
     <MESSAGE value="add tailwind css to project" />
@@ -473,6 +479,7 @@
     <MESSAGE value="update &amp; adding files 5" />
     <MESSAGE value="update &amp; adding files 6" />
     <MESSAGE value="update env file with database name" />
-    <option name="LAST_COMMIT_MESSAGE" value="update env file with database name" />
+    <MESSAGE value="finish user controller (work by postman)" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish user controller (work by postman)" />
   </component>
 </project>

@@ -4,6 +4,7 @@ import mongoose from "mongoose";
 import cors from 'cors';
 import cookieParser from 'cookie-parser';
 import userRoute from './routes/users.js';
+import authRoute from './routes/auth.js';
 
 dotenv.config()
 
@@ -28,16 +29,16 @@ const connect = async ()=>{
         console.log("MongoDb database connected..");
     }catch (err){
         console.log("MongoDb database not connected..");
+        console.log(err)
     }
 }
-
-
 
 //middleware
 app.use(express.json())
 app.use(cors())
 app.use(cookieParser())
 app.use('/users',userRoute)
+app.use('/auth',authRoute)
 
 app.listen(port, ()=>{
     connect();
