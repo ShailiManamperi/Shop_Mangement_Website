@@ -10,8 +10,10 @@ dotenv.config()
 
 const app = express()
 const port = process.env.PORT || 8000
-
-
+const corsOption = {
+    origin : true,
+    credentials : true
+}
 
 /*//for testing
 app.get('/',(req,res)=>{
@@ -35,7 +37,7 @@ const connect = async ()=>{
 
 //middleware
 app.use(express.json())
-app.use(cors())
+app.use(cors(corsOption))
 app.use(cookieParser())
 app.use('/users',userRoute)
 app.use('/auth',authRoute)

@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1668d6f8-a283-4394-b710-4811e83b129f" name="Changes" comment="update auth controller with login function">
+    <list default="true" id="1668d6f8-a283-4394-b710-4811e83b129f" name="Changes" comment="update auth controller with token verify">
       <change afterPath="$PROJECT_DIR$/backend/node_modules/sift/src/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/utils/verifyToken.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/controllers/authController.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/authController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,14 +96,7 @@
       <workItem from="1716695843344" duration="9861000" />
       <workItem from="1717566900182" duration="39112000" />
       <workItem from="1718040941935" duration="2024000" />
-      <workItem from="1718044332752" duration="31475000" />
-    </task>
-    <task id="LOCAL-00004" summary="update home section">
-      <created>1712124353176</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1712124353176</updated>
+      <workItem from="1718044332752" duration="32764000" />
     </task>
     <task id="LOCAL-00005" summary="update service  section">
       <created>1712133211461</created>
@@ -443,7 +434,14 @@
       <option name="project" value="LOCAL" />
       <updated>1718360079288</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="update auth controller with token verify">
+      <created>1718367937549</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1718367937549</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -461,7 +459,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update with media queruy" />
     <MESSAGE value="update with media queruy 2" />
     <MESSAGE value="update product-detail" />
     <MESSAGE value="update header with navigate part" />
@@ -486,6 +483,7 @@
     <MESSAGE value="update env file with jwt token" />
     <MESSAGE value="update auth controller" />
     <MESSAGE value="update auth controller with login function" />
-    <option name="LAST_COMMIT_MESSAGE" value="update auth controller with login function" />
+    <MESSAGE value="update auth controller with token verify" />
+    <option name="LAST_COMMIT_MESSAGE" value="update auth controller with token verify" />
   </component>
 </project>
