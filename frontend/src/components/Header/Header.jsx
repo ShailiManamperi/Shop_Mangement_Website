@@ -1,4 +1,4 @@
-import React, { useRef, useEffect} from "react";
+import React, {useRef, useEffect, useState} from "react";
 
 import { NavLink , useNavigate } from "react-router-dom";
 import './Header.css';
@@ -10,6 +10,10 @@ import userIcon from '../../assets/images/user-icon.png'
 
 import {Container , Row } from "reactstrap";
 import { useSelector } from "react-redux";
+import Cookies from 'js-cookie';
+import axios from "axios";
+import {toast} from "react-toastify";
+
 
 const nav__link = [
     {
@@ -35,6 +39,25 @@ const Header = () =>{
     const menuRef = useRef(null);
 
     const navigate = useNavigate();
+
+    const [username, setUsername] = useState('');
+
+
+    useEffect(()=>{
+        //get token
+        const ACCESS_TOKEN = Cookies.get("token");
+        //check token -> redirect
+        if(!ACCESS_TOKEN) {
+            navigate("/signin");
+        }
+        getUsername();
+
+    }, []);
+
+    const getUsername = ()=>{
+        const username = Cookies.get("user")
+        setUsername(username);
+    }
     const stickyHeaderFunc = () =>{
         window.addEventListener('scroll', ()=>{
             if(document.body.scrollTop >80 || document.documentElement.scrollTop > 80){
@@ -47,7 +70,6 @@ const Header = () =>{
 
     useEffect(()=>{
         stickyHeaderFunc();
-
         return () => window.removeEventListener("scroll",stickyHeaderFunc);
     });
 
@@ -91,6 +113,7 @@ const Header = () =>{
                             <span>
                                 <motion.img whileTap={{scale: 1.2}} src={userIcon} alt="usericon"/>
                             </span>
+
                             <div className="mobile__menu">
                             <span onClick={menuToggle}>
                                 <i className="ri-menu-line"></i>

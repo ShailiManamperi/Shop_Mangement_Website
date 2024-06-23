@@ -1,9 +1,10 @@
+import express from "express";
 import User from "../models/User.js";
 import bcrypt from "bcryptjs";
 import jwt from 'jsonwebtoken';
 
 //user registration
-export const register = async (req,res) =>{
+export const register = async (req: express.Request, res: express.Response) =>{
     try{
 
         // hashing password
@@ -30,7 +31,7 @@ export const register = async (req,res) =>{
 };
 
 //user login
-export const login = async (req,res) =>{
+export const login = async (req: express.Request, res: express.Response) =>{
     const email = req.body.email
 
     try{

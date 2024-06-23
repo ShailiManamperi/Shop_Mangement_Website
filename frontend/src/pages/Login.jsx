@@ -5,7 +5,8 @@ import { Link , useNavigate } from "react-router-dom";
 import '../style/login.css';
 import {  toast } from "react-toastify";
 import axios from "axios";
-import Cookies from "js-cookies/src/cookies";
+import Cookies from 'js-cookie';
+
 
 const Login = () => {
 
@@ -33,10 +34,14 @@ const Login = () => {
         }
 
         axios.post("http://localhost:4000/auth/login", body, {headers: headers}).then(r => {
-            toast.success('Login Successfully..')
-            // Cookies.set("token", r.data.data.accessToken);
-            // Cookies.set("user", JSON.stringify(r.data.data.user)); // JSON.parse("")
-            navigate('/checkout')
+
+            console.log(r)
+            console.log()
+            Cookies.set("token", r.data.token);
+            Cookies.set("user", r.data.data.username);
+            toast.success('Login Sucessfully..')
+            navigate("/checkout");
+
 
         }).catch(err => {
             toast.error('Something went wrong...')

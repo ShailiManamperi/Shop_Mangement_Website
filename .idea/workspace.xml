@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1668d6f8-a283-4394-b710-4811e83b129f" name="Changes" comment="drop some files">
+    <list default="true" id="1668d6f8-a283-4394-b710-4811e83b129f" name="Changes" comment="finish signup and signin">
       <change afterPath="$PROJECT_DIR$/backend/node_modules/sift/src/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/controllers/authController.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/authController.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Header/Header.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/pages/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Login.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/SignUp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/SignUp.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,14 +102,7 @@
       <workItem from="1718044332752" duration="37999000" />
       <workItem from="1718599951129" duration="10909000" />
       <workItem from="1719050971865" duration="693000" />
-      <workItem from="1719122181082" duration="11445000" />
-    </task>
-    <task id="LOCAL-00010" summary="update home section">
-      <created>1712429973794</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1712429973794</updated>
+      <workItem from="1719122181082" duration="17689000" />
     </task>
     <task id="LOCAL-00011" summary="update header section">
       <created>1712558311807</created>
@@ -446,7 +440,14 @@
       <option name="project" value="LOCAL" />
       <updated>1719161303058</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="finish signup and signin">
+      <created>1719163046476</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1719163046476</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -464,7 +465,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add checkout.css" />
     <MESSAGE value="update checkout section" />
     <MESSAGE value="update checkout section 2" />
     <MESSAGE value="add login.css" />
@@ -489,6 +489,7 @@
     <MESSAGE value="update item controller" />
     <MESSAGE value="making connection" />
     <MESSAGE value="drop some files" />
-    <option name="LAST_COMMIT_MESSAGE" value="drop some files" />
+    <MESSAGE value="finish signup and signin" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish signup and signin" />
   </component>
 </project>
