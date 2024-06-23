@@ -1,19 +1,50 @@
 import React,{useState} from "react";
 import Helmet from "../components/Helmet/Helmet";
 import { Container, Row, Col, Form,FormGroup} from "reactstrap";
-import { Link } from "react-router-dom";
+import { Link , useNavigate } from "react-router-dom";
 import '../style/login.css';
-import useFetch from "../hooks/useFetch";
-import { BASE_URL } from "../utils/config";
+import {  toast } from "react-toastify";
+import axios from "axios";
+
 
 const Signup = () => {
-
-    const { data: Signup} = useFetch(`${BASE_URL}/`)
 
     const [username,setUsername]= useState('')
     const [email,setEmail]= useState('')
     const [password,setPassword]= useState('')
-    const [file,setFile]= useState(null)
+    //const [file,setFile]= useState(null)
+    const navigate = useNavigate()
+
+    const validateSubmition = (e) => {
+        e.preventDefault();
+        // validation
+        if( username && email && password) {
+            submitNewUser();
+        } else {
+            toast.error('Invalid Inputs..')
+        }
+    }
+
+    const submitNewUser = () => {
+
+        const headers = {'Content-Type': 'application/json'}
+
+        let body = {
+            username: username,
+            email: email,
+            password: password
+        }
+
+        axios.post("http://localhost:4000/auth/register", body, {headers: headers}).then(r => {
+            toast.success('Register Successfully..')
+            navigate('/login')
+
+        }).catch(err => {
+            toast.error('Something went wrong...')
+        })
+
+    }
+
 
     return (
         <Helmet title={'Signup'}>
@@ -23,7 +54,7 @@ const Signup = () => {
                         <Col lg={6} className={'m-auto text-center'}>
                             <h3 className={'fw-bold mb-4'}>Signup</h3>
 
-                            <Form className={'auth__form'}>
+                            <Form className={'auth__form'} >
                                 <FormGroup className={'form__group'}>
                                     <input type={'text'} placeholder={'Enter Username'}
                                            value={username} onChange={e=> setUsername(e.target.value)}/>
@@ -36,13 +67,11 @@ const Signup = () => {
                                     <input type={'password'} placeholder={'Enter your password'}
                                            value={password} onChange={e=> setPassword(e.target.value)}/>
                                 </FormGroup>
-                                <FormGroup className={'form__group'}>
-                                    <input type={'file'} onChange={e=> setFile(e.target.value)}/>
-                                </FormGroup>
-
-                                <button type={'submit'} className='buy_btn auth__btn '>Create an account</button>
+                                {/*<FormGroup className={'form__group'}>*/}
+                                {/*    <input type={'file'} onChange={e=> setFile(e.target.value)}/>*/}
+                                {/*</FormGroup>*/}
+                                <button type={'submit'} onClick={validateSubmition} className='buy_btn auth__btn '>Create an account</button>
                                 <p>Already have an account? <Link to={'/login'}>Login</Link></p>
-
                             </Form>
                         </Col>
                     </Row>

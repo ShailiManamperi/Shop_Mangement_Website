@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1668d6f8-a283-4394-b710-4811e83b129f" name="Changes" comment="making connection">
+    <list default="true" id="1668d6f8-a283-4394-b710-4811e83b129f" name="Changes" comment="drop some files">
       <change afterPath="$PROJECT_DIR$/backend/node_modules/sift/src/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/context/AuthContext.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/context/AuthContext.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/hooks/useFetch.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/hooks/useFetch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Login.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/pages/SignUp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/SignUp.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,25 +36,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Dell/Desktop/New folder/test/Shop_Management_Website_Backend&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2023.1.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Dell/Desktop/New folder/test/Shop_Management_Website_Backend",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2023.1.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Dell\Desktop\New folder\test\Shop_Mangement_Website\backend\models" />
@@ -102,14 +101,7 @@
       <workItem from="1718044332752" duration="37999000" />
       <workItem from="1718599951129" duration="10909000" />
       <workItem from="1719050971865" duration="693000" />
-      <workItem from="1719122181082" duration="9862000" />
-    </task>
-    <task id="LOCAL-00009" summary="update clock section">
-      <created>1712426397765</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1712426397765</updated>
+      <workItem from="1719122181082" duration="11445000" />
     </task>
     <task id="LOCAL-00010" summary="update home section">
       <created>1712429973794</created>
@@ -447,7 +439,14 @@
       <option name="project" value="LOCAL" />
       <updated>1719125656709</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="drop some files">
+      <created>1719161303058</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1719161303058</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -465,7 +464,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update cart (with subtotal)" />
     <MESSAGE value="add checkout.css" />
     <MESSAGE value="update checkout section" />
     <MESSAGE value="update checkout section 2" />
@@ -490,6 +488,7 @@
     <MESSAGE value="Add document file" />
     <MESSAGE value="update item controller" />
     <MESSAGE value="making connection" />
-    <option name="LAST_COMMIT_MESSAGE" value="making connection" />
+    <MESSAGE value="drop some files" />
+    <option name="LAST_COMMIT_MESSAGE" value="drop some files" />
   </component>
 </project>
