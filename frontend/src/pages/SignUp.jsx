@@ -3,8 +3,13 @@ import Helmet from "../components/Helmet/Helmet";
 import { Container, Row, Col, Form,FormGroup} from "reactstrap";
 import { Link } from "react-router-dom";
 import '../style/login.css';
+import useFetch from "../hooks/useFetch";
+import { BASE_URL } from "../utils/config";
 
 const Signup = () => {
+
+    const { data: Signup} = useFetch(`${BASE_URL}/`)
+
     const [username,setUsername]= useState('')
     const [email,setEmail]= useState('')
     const [password,setPassword]= useState('')
