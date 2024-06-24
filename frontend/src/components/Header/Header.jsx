@@ -1,6 +1,6 @@
-import React, {useRef, useEffect, useState} from "react";
+import React, {useRef, useEffect} from "react";
 
-import { NavLink , useNavigate } from "react-router-dom";
+import { NavLink, useNavigate} from "react-router-dom";
 import './Header.css';
 
 import {motion} from "framer-motion";
@@ -10,10 +10,6 @@ import userIcon from '../../assets/images/user-icon.png'
 
 import {Container , Row } from "reactstrap";
 import { useSelector } from "react-redux";
-import Cookies from 'js-cookie';
-import axios from "axios";
-import {toast} from "react-toastify";
-
 
 const nav__link = [
     {
@@ -40,24 +36,6 @@ const Header = () =>{
 
     const navigate = useNavigate();
 
-    const [username, setUsername] = useState('');
-
-
-    useEffect(()=>{
-        //get token
-        const ACCESS_TOKEN = Cookies.get("token");
-        //check token -> redirect
-        if(!ACCESS_TOKEN) {
-            navigate("/signin");
-        }
-        getUsername();
-
-    }, []);
-
-    const getUsername = ()=>{
-        const username = Cookies.get("user")
-        setUsername(username);
-    }
     const stickyHeaderFunc = () =>{
         window.addEventListener('scroll', ()=>{
             if(document.body.scrollTop >80 || document.documentElement.scrollTop > 80){
@@ -77,6 +55,9 @@ const Header = () =>{
 
     const navigateToCart = () =>{
         navigate('/cart');
+    }
+    const navigateToLogin = () =>{
+        navigate('/login');
     }
 
     return <header className={"header"} ref={headerRef}>
@@ -110,9 +91,12 @@ const Header = () =>{
                                 <i className="ri-shopping-bag-line"></i>
                                 <span className="badge">{totalQuantity}</span>
                             </span>
-                            <span>
-                                <motion.img whileTap={{scale: 1.2}} src={userIcon} alt="usericon"/>
-                            </span>
+                            <div className="profile" onClick={navigateToLogin}>
+                                <motion.img whileTap={{scale: 1.2}}
+                                            src={userIcon}
+                                            alt="usericon"
+                                />
+                            </div>
 
                             <div className="mobile__menu">
                             <span onClick={menuToggle}>
