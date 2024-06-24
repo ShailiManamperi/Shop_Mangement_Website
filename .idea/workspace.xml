@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1668d6f8-a283-4394-b710-4811e83b129f" name="Changes" comment="add cookies file and set with it">
+    <list default="true" id="1668d6f8-a283-4394-b710-4811e83b129f" name="Changes" comment="add resources">
       <change afterPath="$PROJECT_DIR$/backend/node_modules/sift/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/controllers/authController.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/authController.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/components/Header/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Header/Header.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Header/Header.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/pages/SignIn.jsx" beforeDir="false" />
@@ -109,14 +105,7 @@
       <workItem from="1719050971865" duration="693000" />
       <workItem from="1719122181082" duration="23743000" />
       <workItem from="1719211864565" duration="146000" />
-      <workItem from="1719217532390" duration="2920000" />
-    </task>
-    <task id="LOCAL-00012" summary="update footer section">
-      <created>1712558331711</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1712558331711</updated>
+      <workItem from="1719217532390" duration="3271000" />
     </task>
     <task id="LOCAL-00013" summary="update header section with media query">
       <created>1712559964776</created>
@@ -454,7 +443,14 @@
       <option name="project" value="LOCAL" />
       <updated>1719168997290</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="add resources">
+      <created>1719222656272</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1719222656273</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -472,7 +468,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update checkout section 2" />
     <MESSAGE value="add login.css" />
     <MESSAGE value="update files" />
     <MESSAGE value="adding backend files" />
@@ -497,6 +492,7 @@
     <MESSAGE value="drop some files" />
     <MESSAGE value="finish signup and signin" />
     <MESSAGE value="add cookies file and set with it" />
-    <option name="LAST_COMMIT_MESSAGE" value="add cookies file and set with it" />
+    <MESSAGE value="add resources" />
+    <option name="LAST_COMMIT_MESSAGE" value="add resources" />
   </component>
 </project>

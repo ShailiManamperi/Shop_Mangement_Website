@@ -8,7 +8,7 @@ import Login from "../pages/Login";
 import ProductDetail from "../pages/ProductDetail";
 import Checkout from "../pages/Checkout";
 import SignUp from "../pages/SignUp";
-import SignIn from "../pages/SignIn";
+
 
 const Router = () => {
     return(
@@ -21,7 +21,6 @@ const Router = () => {
             {/*<Route path='productDetail' element={<ProductDetail/>}/>*/}
             <Route path='checkout' element={<Checkout/>}/>
             <Route path='signUp' element={<SignUp/>}/>
-            <Route path='signIn' element={<SignIn/>}/>
             <Route path="/shop/:id" element={<ProductDetail />} />
         </Routes>
     ) ;
