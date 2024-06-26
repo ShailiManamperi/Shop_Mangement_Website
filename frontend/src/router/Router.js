@@ -20,12 +20,9 @@ const Router = () => {
             <Route path='cart' element={<Cart/>}/>
             <Route path='login' element={<Login/>}/>
             <Route path='productDetail' element={<ProductDetail/>}/>
-            <Route path='checkout'
-                   element={
-                <ProtectedRoute>
-                    <Checkout/>
-                </ProtectedRoute>
-            }/>
+            <Route path='/*' element={<ProtectedRoute/>}>
+                <Route path='checkout' element={<Checkout/>}></Route>
+            </Route>
             <Route path='signUp' element={<SignUp/>}/>
             <Route path="/shop/:id" element={<ProductDetail />} />
         </Routes>

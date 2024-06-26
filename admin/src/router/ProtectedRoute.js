@@ -1,12 +1,13 @@
 import React, {useState} from "react";
 import {Navigate} from "react-router-dom";
-import Cookies from "js-cookie";
+import Cookies from 'js-cookie';
+import { Outlet } from "react-router-dom";
 
 
-const ProtectedRoute = ({ children}) =>{
+const ProtectedRoute = () =>{
     const [username, setUsername] = useState('');
     setUsername(Cookies.get("user"));
-    return username ? children : <Navigate to={'/login'}/>;
+    return username ? <Outlet/> : <Navigate to={'/login'}/>;
 
 }
 

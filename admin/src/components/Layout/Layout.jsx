@@ -1,11 +1,11 @@
 import React from "react";
-import Header from "../Header/Header";
+import AdminNav from "../../pages/AdminNav";
 import Footer from "../Footer/Footer";
 import Routers from "../../router/Router";
 
 const Layout = () =>{
     return <>
-        <Header/>
+        <AdminNav/>
         <div>
             <Routers/>
         </div>
