@@ -20,6 +20,10 @@ const userSchema = new mongoose.Schema(
       type: String,
       default: "user",
     },
+    status:{
+        type :String,
+        default: "logout",
+    },
   },
   { timestamps: true }
 );

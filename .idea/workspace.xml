@@ -4,13 +4,45 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1668d6f8-a283-4394-b710-4811e83b129f" name="Changes" comment="add resources">
-      <change afterPath="$PROJECT_DIR$/backend/node_modules/sift/src/index.ts" afterDir="false" />
+    <list default="true" id="1668d6f8-a283-4394-b710-4811e83b129f" name="Changes" comment="add admin panel">
+      <change afterPath="$PROJECT_DIR$/admin/src/components/Footer/Footer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/components/Footer/footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/components/Header/Header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/components/Header/Header.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/components/Helmet/Helmet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/components/Layout/Layout.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/pages/AddProducts.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/pages/AdminNav.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/pages/Home.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/redux/authReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/redux/slices/cartSlice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/redux/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/router/ProtectedRoute.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/router/Router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/style/Product-card.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/style/cart.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/style/checkout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/style/clock.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/style/comman-section.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/style/home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/style/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/style/product-detail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/style/shop.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/redux/authReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/router/ProtectedRoute.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/admin/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/admin/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/controllers/authController.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/authController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Header/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Header/Header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/models/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/User.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/routes/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/auth.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/SignIn.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Checkout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Checkout.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Login.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/redux/store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/router/Router.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/router/Router.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +76,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Dell/Desktop/New folder/test/Shop_Mangement_Website",
+    "last_opened_file_path": "C:/Users/Dell/Desktop/New folder/test/Shop_Mangement_Website/admin/src",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -57,6 +89,12 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Dell\Desktop\New folder\test\Shop_Mangement_Website\admin\src" />
+      <recent name="C:\Users\Dell\Desktop\New folder\test\Shop_Mangement_Website\admin\src\pages" />
+      <recent name="C:\Users\Dell\Desktop\New folder\test\Shop_Mangement_Website\admin\src\redux" />
+      <recent name="C:\Users\Dell\Desktop\New folder\test\Shop_Mangement_Website" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Dell\Desktop\New folder\test\Shop_Mangement_Website\backend\models" />
       <recent name="D:\Gdse\React_final\Wimalasiri-ecommerce\src\components\Footer" />
@@ -105,35 +143,7 @@
       <workItem from="1719050971865" duration="693000" />
       <workItem from="1719122181082" duration="23743000" />
       <workItem from="1719211864565" duration="146000" />
-      <workItem from="1719217532390" duration="3271000" />
-    </task>
-    <task id="LOCAL-00013" summary="update header section with media query">
-      <created>1712559964776</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1712559964776</updated>
-    </task>
-    <task id="LOCAL-00014" summary="update stylesheets">
-      <created>1712908819680</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1712908819680</updated>
-    </task>
-    <task id="LOCAL-00015" summary="update view files">
-      <created>1712908847881</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1712908847881</updated>
-    </task>
-    <task id="LOCAL-00016" summary="bulid add to cart function">
-      <created>1713159747841</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1713159747841</updated>
+      <workItem from="1719217532390" duration="23089000" />
     </task>
     <task id="LOCAL-00017" summary="add alert box funtion">
       <created>1713160653050</created>
@@ -450,7 +460,35 @@
       <option name="project" value="LOCAL" />
       <updated>1719222656273</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="update auth controller">
+      <created>1719222697934</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1719222697934</updated>
+    </task>
+    <task id="LOCAL-00063" summary="update index file">
+      <created>1719222736063</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1719222736063</updated>
+    </task>
+    <task id="LOCAL-00064" summary="update header file">
+      <created>1719222924506</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1719222924506</updated>
+    </task>
+    <task id="LOCAL-00065" summary="add admin panel">
+      <created>1719376850285</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1719376850285</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -468,8 +506,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add login.css" />
-    <MESSAGE value="update files" />
     <MESSAGE value="adding backend files" />
     <MESSAGE value="mongodb database connection setting" />
     <MESSAGE value="update &amp; adding files" />
@@ -482,10 +518,8 @@
     <MESSAGE value="finish user controller (work by postman)" />
     <MESSAGE value="update user controller (work by postman)" />
     <MESSAGE value="update env file with jwt token" />
-    <MESSAGE value="update auth controller" />
     <MESSAGE value="update auth controller with login function" />
     <MESSAGE value="update auth controller with token verify" />
-    <MESSAGE value="update index file" />
     <MESSAGE value="Add document file" />
     <MESSAGE value="update item controller" />
     <MESSAGE value="making connection" />
@@ -493,6 +527,10 @@
     <MESSAGE value="finish signup and signin" />
     <MESSAGE value="add cookies file and set with it" />
     <MESSAGE value="add resources" />
-    <option name="LAST_COMMIT_MESSAGE" value="add resources" />
+    <MESSAGE value="update auth controller" />
+    <MESSAGE value="update index file" />
+    <MESSAGE value="update header file" />
+    <MESSAGE value="add admin panel" />
+    <option name="LAST_COMMIT_MESSAGE" value="add admin panel" />
   </component>
 </project>

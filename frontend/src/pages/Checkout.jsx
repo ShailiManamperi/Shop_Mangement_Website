@@ -1,14 +1,39 @@
-import React from "react";
+import React, {useState,useEffect} from "react";
 import {Container, Row, Col, Form, FormGroup} from "reactstrap";
 import Helmet from "../components/Helmet/Helmet";
 import CommonSection from "../components/Ui/CommonSection";
 import '../style/checkout.css';
 import { useSelector } from "react-redux";
+import Cookies from "js-cookie";
+import {useNavigate} from "react-router-dom";
 
 const Checkout = () => {
+    const navigate = useNavigate();
+
+    const [username, setUsername] = useState('');
+    useEffect(()=>{
+        //get token
+        const ACCESS_TOKEN = Cookies.get("token");
+        //check token -> redirect
+        if(!ACCESS_TOKEN) {
+            navigate("/login");
+        }
+        getUsername();
+
+    }, [navigate]);
+
+    const getUsername = ()=>{
+        const username = Cookies.get("user")
+        setUsername(username);
+    }
 
     const totalQty = useSelector(state => state.cart.totalQuantity)
     const totalAmount = useSelector(state => state.cart.totalAmount)
+
+    const checkLogin = () =>{
+        console.log(username)
+        username ? navigate("/home") : navigate("/login");
+    }
 
     return (
         <Helmet title={'Checkout'}>
@@ -52,7 +77,7 @@ const Checkout = () => {
                                 </h6>
                                 <h4>Total cost: <span>{totalAmount}</span></h4>
 
-                                <button className='buy_btn auth__btn w-100'>Place an order</button>
+                                <button className='buy_btn auth__btn w-100' onClick={checkLogin}>Place an order</button>
                             </div>
 
                         </Col>
