@@ -4,30 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1668d6f8-a283-4394-b710-4811e83b129f" name="Changes" comment="add admin files">
-      <change afterPath="$PROJECT_DIR$/admin/src/pages/Dashboard.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/pages/Login.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/style/adminNav.css" afterDir="false" />
+    <list default="true" id="1668d6f8-a283-4394-b710-4811e83b129f" name="Changes" comment="update files">
+      <change afterPath="$PROJECT_DIR$/admin/src/style/addProduct.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/admin/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/admin/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/components/Header/Header.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/components/Header/Header.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/components/Layout/Layout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/components/Layout/Layout.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/pages/AddProducts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/pages/AddProducts.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/src/pages/AdminNav.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/pages/AdminNav.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/pages/Home.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/router/ProtectedRoute.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/router/ProtectedRoute.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/pages/Dashboard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/pages/Dashboard.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/src/router/Router.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/router/Router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/style/Product-card.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/style/cart.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/style/checkout.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/style/clock.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/style/comman-section.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/style/home.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/style/product-detail.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/style/shop.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Login.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/router/Router.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/router/Router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/controllers/itemController.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/itemController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/models/Item.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/Item.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/routes/items.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/items.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,21 +117,7 @@
       <workItem from="1719050971865" duration="693000" />
       <workItem from="1719122181082" duration="23743000" />
       <workItem from="1719211864565" duration="146000" />
-      <workItem from="1719217532390" duration="34506000" />
-    </task>
-    <task id="LOCAL-00019" summary="update with ProductDetail frame">
-      <created>1716701079770</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1716701079770</updated>
-    </task>
-    <task id="LOCAL-00020" summary="update with ProductDetail frame 2">
-      <created>1717568037476</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1717568037476</updated>
+      <workItem from="1719217532390" duration="55026000" />
     </task>
     <task id="LOCAL-00021" summary="add tailwind css to project">
       <created>1717581427810</created>
@@ -472,7 +448,21 @@
       <option name="project" value="LOCAL" />
       <updated>1719379686448</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="updateand drop some admin files">
+      <created>1719399750720</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1719399750720</updated>
+    </task>
+    <task id="LOCAL-00069" summary="update admin nav bar">
+      <created>1719399780075</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1719399780075</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -490,8 +480,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update &amp; adding files" />
-    <MESSAGE value="update &amp; adding files 2" />
     <MESSAGE value="update &amp; adding files 3" />
     <MESSAGE value="update &amp; adding files 4" />
     <MESSAGE value="update &amp; adding files 5" />
@@ -513,8 +501,10 @@
     <MESSAGE value="update index file" />
     <MESSAGE value="update header file" />
     <MESSAGE value="add admin panel" />
-    <MESSAGE value="update files" />
     <MESSAGE value="add admin files" />
-    <option name="LAST_COMMIT_MESSAGE" value="add admin files" />
+    <MESSAGE value="updateand drop some admin files" />
+    <MESSAGE value="update admin nav bar" />
+    <MESSAGE value="update files" />
+    <option name="LAST_COMMIT_MESSAGE" value="update files" />
   </component>
 </project>

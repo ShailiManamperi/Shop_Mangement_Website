@@ -22,6 +22,9 @@ const itemSchema = new mongoose.Schema(
         description:{
             type:String,
             required:true
+        },
+        imgUrl:{
+            type:String
         }
     },
     {timestamps : true}
