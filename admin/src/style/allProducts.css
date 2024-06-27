@@ -1,7 +1,7 @@
-.table tr td img{
+.table tbody tr td img{
+    width: 80px !important;
+    height: 80px !important;
     object-fit: cover;
-    width: 80px ;
-    height: 80px ;
 }
 td i{
     cursor: pointer;

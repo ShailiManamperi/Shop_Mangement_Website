@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1668d6f8-a283-4394-b710-4811e83b129f" name="Changes" comment="update files">
+    <list default="true" id="1668d6f8-a283-4394-b710-4811e83b129f" name="Changes" comment="add yml and another new files">
+      <change afterPath="$PROJECT_DIR$/admin/src/custom-hooks/useGetData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/style/allProducts.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/pages/AddProducts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/pages/AddProducts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/pages/AllProducts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/pages/AllProducts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/style/adminNav.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/style/adminNav.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/style/cart.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/style/cart.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -106,21 +111,7 @@
       <workItem from="1719050971865" duration="693000" />
       <workItem from="1719122181082" duration="23743000" />
       <workItem from="1719211864565" duration="146000" />
-      <workItem from="1719217532390" duration="55697000" />
-    </task>
-    <task id="LOCAL-00022" summary="update rating part in product-detail">
-      <created>1717650672570</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1717650672570</updated>
-    </task>
-    <task id="LOCAL-00023" summary="update with media queruy">
-      <created>1717653882515</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1717653882515</updated>
+      <workItem from="1719217532390" duration="59574000" />
     </task>
     <task id="LOCAL-00024" summary="update with media queruy 2">
       <created>1717655295696</created>
@@ -451,7 +442,21 @@
       <option name="project" value="LOCAL" />
       <updated>1719483687402</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="update add-product file">
+      <created>1719484370664</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1719484370664</updated>
+    </task>
+    <task id="LOCAL-00072" summary="add yml and another new files">
+      <created>1719484424274</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1719484424274</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -469,8 +474,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update &amp; adding files 3" />
-    <MESSAGE value="update &amp; adding files 4" />
     <MESSAGE value="update &amp; adding files 5" />
     <MESSAGE value="update &amp; adding files 6" />
     <MESSAGE value="update env file with database name" />
@@ -494,6 +497,8 @@
     <MESSAGE value="updateand drop some admin files" />
     <MESSAGE value="update admin nav bar" />
     <MESSAGE value="update files" />
-    <option name="LAST_COMMIT_MESSAGE" value="update files" />
+    <MESSAGE value="update add-product file" />
+    <MESSAGE value="add yml and another new files" />
+    <option name="LAST_COMMIT_MESSAGE" value="add yml and another new files" />
   </component>
 </project>
