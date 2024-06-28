@@ -7,12 +7,14 @@ import Dashboard from "../pages/Dashboard";
 import Login from "../pages/Login";
 import ProductDetails from "../pages/ProductDetails";
 import User from "../pages/User";
+import SignUp from "../pages/SignUp";
 
 const Router = () => {
     return(
         <Routes>
-        <Route path="/" element={<Navigate to='/dashboard'/>}/>
+        <Route path="/" element={<Navigate to='/login'/>}/>
             <Route path='login' element={<Login/>}/>
+            <Route path='signUp' element={<SignUp/>}/>
             <Route path='dashboard' element={<Dashboard/>}/>
             <Route path='dashboard/users' element={<User/>}/>
             <Route path='dashboard/all-products' element={<AllProducts/>}/>

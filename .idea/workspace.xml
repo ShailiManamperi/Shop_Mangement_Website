@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1668d6f8-a283-4394-b710-4811e83b129f" name="Changes" comment="update css file">
+    <list default="true" id="1668d6f8-a283-4394-b710-4811e83b129f" name="Changes" comment="update admin user files">
+      <change afterPath="$PROJECT_DIR$/admin/src/pages/SignUp.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/pages/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/pages/Login.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/src/router/Router.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/router/Router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/controllers/userController.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/userController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/utils/verifyToken.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/utils/verifyToken.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/style/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/style/login.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,14 +110,7 @@
       <workItem from="1719122181082" duration="23743000" />
       <workItem from="1719211864565" duration="146000" />
       <workItem from="1719217532390" duration="61214000" />
-      <workItem from="1719574122386" duration="3101000" />
-    </task>
-    <task id="LOCAL-00026" summary="update header with navigate part">
-      <created>1717759175778</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1717759175778</updated>
+      <workItem from="1719574122386" duration="4551000" />
     </task>
     <task id="LOCAL-00027" summary="update cart (show in table)">
       <created>1717772753444</created>
@@ -456,7 +448,14 @@
       <option name="project" value="LOCAL" />
       <updated>1719503230576</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="update admin user files">
+      <created>1719578513632</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1719578513633</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -474,7 +473,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update env file with database name" />
     <MESSAGE value="finish user controller (work by postman)" />
     <MESSAGE value="update user controller (work by postman)" />
     <MESSAGE value="update env file with jwt token" />
@@ -499,6 +497,7 @@
     <MESSAGE value="add yml and another new files" />
     <MESSAGE value="add all-product files" />
     <MESSAGE value="update css file" />
-    <option name="LAST_COMMIT_MESSAGE" value="update css file" />
+    <MESSAGE value="update admin user files" />
+    <option name="LAST_COMMIT_MESSAGE" value="update admin user files" />
   </component>
 </project>
