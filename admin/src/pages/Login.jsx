@@ -37,7 +37,7 @@ const Login = () => {
             console.log(r)
             console.log()
             Cookies.set("token", r.data.token);
-            Cookies.set("user", r.data.data.username);
+            Cookies.set("user_email", r.data.data.email);
             navigate("/dashboard");
             toast.success('Login Sucessfully..')
 

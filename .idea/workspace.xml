@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1668d6f8-a283-4394-b710-4811e83b129f" name="Changes" comment="update admin login &amp; signup">
+    <list default="true" id="1668d6f8-a283-4394-b710-4811e83b129f" name="Changes" comment="update adminNav File">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/src/pages/AdminNav.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/pages/AdminNav.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/pages/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/pages/Login.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/src/pages/User.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/pages/User.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/src/style/adminNav.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/style/adminNav.css" afterDir="false" />
     </list>
@@ -109,14 +110,7 @@
       <workItem from="1719122181082" duration="23743000" />
       <workItem from="1719211864565" duration="146000" />
       <workItem from="1719217532390" duration="61214000" />
-      <workItem from="1719574122386" duration="5667000" />
-    </task>
-    <task id="LOCAL-00028" summary="update cart (with subtotal)">
-      <created>1717778925989</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1717778925989</updated>
+      <workItem from="1719574122386" duration="7169000" />
     </task>
     <task id="LOCAL-00029" summary="add checkout.css">
       <created>1717781580153</created>
@@ -454,7 +448,14 @@
       <option name="project" value="LOCAL" />
       <updated>1719580260916</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="update adminNav File">
+      <created>1719581387041</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1719581387041</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -472,7 +473,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update user controller (work by postman)" />
     <MESSAGE value="update env file with jwt token" />
     <MESSAGE value="update auth controller with login function" />
     <MESSAGE value="update auth controller with token verify" />
@@ -497,6 +497,7 @@
     <MESSAGE value="update css file" />
     <MESSAGE value="update admin user files" />
     <MESSAGE value="update admin login &amp; signup" />
-    <option name="LAST_COMMIT_MESSAGE" value="update admin login &amp; signup" />
+    <MESSAGE value="update adminNav File" />
+    <option name="LAST_COMMIT_MESSAGE" value="update adminNav File" />
   </component>
 </project>
