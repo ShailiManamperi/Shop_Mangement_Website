@@ -55,7 +55,7 @@ const AdminNav = () =>{
                     </Container>
                 </div>
             </header>
-            <section className="admin__menu">
+            <section className="admin__menu p-0">
                 <Container>
                     <Row>
                         <div className="admin__navigation">
@@ -68,7 +68,9 @@ const AdminNav = () =>{
                                         </li>
                                     ))
                                 }
+                                <div><button className={'btn btn-danger'}>Logout</button></div>
                             </ul>
+
                         </div>
                     </Row>
                 </Container>
