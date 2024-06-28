@@ -68,21 +68,14 @@ export const getSingleUser = async (req,res) =>{
 
 
 //getAll users
-export const getAllUser = async (req,res) =>{
+export const getAllUser = async (req, res) => {
+    console.log(req.user); // Should print user information
 
-    //for pagintion
-
-    const page = parseInt(req.query.page)
-    console.log(page)
-
-    try{
-
-        const users = await User.find({})
-
-        res.status(200).json({success:true,message:'Successfully found..',data:users})
-
-    }catch (err){
-        res.status(404).json({success:false,message:'Not Found..'})
+    try {
+        const users = await User.find({});
+        res.status(200).json({ success: true, message: 'Successfully found.', data: users });
+    } catch (err) {
+        res.status(404).json({ success: false, message: 'Not Found.' });
     }
 };
 

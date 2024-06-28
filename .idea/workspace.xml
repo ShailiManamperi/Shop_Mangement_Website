@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1668d6f8-a283-4394-b710-4811e83b129f" name="Changes" comment="add yml and another new files">
-      <change afterPath="$PROJECT_DIR$/admin/src/custom-hooks/useGetData.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/style/allProducts.css" afterDir="false" />
+    <list default="true" id="1668d6f8-a283-4394-b710-4811e83b129f" name="Changes" comment="update css file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/pages/AllProducts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/pages/AllProducts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/style/adminNav.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/style/adminNav.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/style/cart.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/style/cart.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/router/Router.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/router/Router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/controllers/userController.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/userController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/utils/verifyToken.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/utils/verifyToken.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,25 +36,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Dell/Desktop/New folder/test/Shop_Mangement_Website/admin/src/pages",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2023.1.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Dell/Desktop/New folder/test/Shop_Mangement_Website/admin/src/pages&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2023.1.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Dell\Desktop\New folder\test\Shop_Mangement_Website\admin\src\pages" />
@@ -111,21 +110,8 @@
       <workItem from="1719050971865" duration="693000" />
       <workItem from="1719122181082" duration="23743000" />
       <workItem from="1719211864565" duration="146000" />
-      <workItem from="1719217532390" duration="59574000" />
-    </task>
-    <task id="LOCAL-00024" summary="update with media queruy 2">
-      <created>1717655295696</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1717655295696</updated>
-    </task>
-    <task id="LOCAL-00025" summary="update product-detail">
-      <created>1717755805666</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1717755805666</updated>
+      <workItem from="1719217532390" duration="61214000" />
+      <workItem from="1719574122386" duration="3101000" />
     </task>
     <task id="LOCAL-00026" summary="update header with navigate part">
       <created>1717759175778</created>
@@ -456,7 +442,21 @@
       <option name="project" value="LOCAL" />
       <updated>1719484424274</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="add all-product files">
+      <created>1719503170298</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1719503170298</updated>
+    </task>
+    <task id="LOCAL-00074" summary="update css file">
+      <created>1719503230575</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1719503230576</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -474,8 +474,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update &amp; adding files 5" />
-    <MESSAGE value="update &amp; adding files 6" />
     <MESSAGE value="update env file with database name" />
     <MESSAGE value="finish user controller (work by postman)" />
     <MESSAGE value="update user controller (work by postman)" />
@@ -499,6 +497,8 @@
     <MESSAGE value="update files" />
     <MESSAGE value="update add-product file" />
     <MESSAGE value="add yml and another new files" />
-    <option name="LAST_COMMIT_MESSAGE" value="add yml and another new files" />
+    <MESSAGE value="add all-product files" />
+    <MESSAGE value="update css file" />
+    <option name="LAST_COMMIT_MESSAGE" value="update css file" />
   </component>
 </project>

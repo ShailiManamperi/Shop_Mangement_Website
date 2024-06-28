@@ -14,18 +14,10 @@ dotenv.config()
 
 const app = express()
 const port = process.env.PORT || 8000
-const corsOption = {
-    origin : true,
-    credentials : true
-}
+
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-
-/*//for testing
-app.get('/',(req,res)=>{
-    res.send("api working...");
-})*/
 
 //database connection
 mongoose.set('strictQuery',false);
@@ -44,7 +36,10 @@ const connect = async ()=>{
 
 //middleware
 app.use(express.json())
-app.use(cors(corsOption))
+app.use(cors({
+    origin: 'http://localhost:3000', // Adjust this to your frontend's URL
+    credentials: true,
+}));
 app.use(cookieParser())
 app.use('/users',userRoute)
 app.use('/auth',authRoute)
