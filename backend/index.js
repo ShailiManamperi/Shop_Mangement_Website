@@ -6,6 +6,7 @@ import cookieParser from 'cookie-parser';
 import userRoute from './routes/users.js';
 import authRoute from './routes/auth.js';
 import itemRoute from './routes/items.js';
+import orderRoute from './routes/orders.js';
 import path from "path";
 import {fileURLToPath} from "url";
 import { dirname } from 'path';
@@ -45,6 +46,7 @@ app.use(cookieParser())
 app.use('/users',userRoute)
 app.use('/auth',authRoute)
 app.use('/item',itemRoute)
+app.use('/order',orderRoute)
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
 app.listen(port, ()=>{
