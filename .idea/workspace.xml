@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1668d6f8-a283-4394-b710-4811e83b129f" name="Changes" comment="add dashboard frame and function">
-      <change afterPath="$PROJECT_DIR$/backend/controllers/orderController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/models/Order.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/routes/orders.js" afterDir="false" />
+    <list default="true" id="1668d6f8-a283-4394-b710-4811e83b129f" name="Changes" comment="add order controller in backend">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/models/Order.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/Order.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/pages/Checkout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Checkout.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/router/Router.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/router/Router.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,14 +109,7 @@
       <workItem from="1719122181082" duration="23743000" />
       <workItem from="1719211864565" duration="146000" />
       <workItem from="1719217532390" duration="61214000" />
-      <workItem from="1719574122386" duration="18830000" />
-    </task>
-    <task id="LOCAL-00032" summary="add login.css">
-      <created>1717838454419</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1717838454419</updated>
+      <workItem from="1719574122386" duration="21914000" />
     </task>
     <task id="LOCAL-00033" summary="update files">
       <created>1718044528893</created>
@@ -458,7 +447,14 @@
       <option name="project" value="LOCAL" />
       <updated>1719679207458</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="add order controller in backend">
+      <created>1719681437504</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1719681437505</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -476,7 +472,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add document file" />
     <MESSAGE value="update item controller" />
     <MESSAGE value="making connection" />
     <MESSAGE value="drop some files" />
@@ -501,6 +496,7 @@
     <MESSAGE value="update admin logout function" />
     <MESSAGE value="update admin user delete  function" />
     <MESSAGE value="add dashboard frame and function" />
-    <option name="LAST_COMMIT_MESSAGE" value="add dashboard frame and function" />
+    <MESSAGE value="add order controller in backend" />
+    <option name="LAST_COMMIT_MESSAGE" value="add order controller in backend" />
   </component>
 </project>
