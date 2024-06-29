@@ -4,6 +4,7 @@ import axios from "axios";
 import { toast } from "react-toastify";
 import userImg from '../assets/images/user-icon.png';
 import '../style/users.css';
+import Helmet from "../components/Helmet/Helmet";
 
 const User = () => {
     const [users, setUsers] = useState([]);
@@ -47,49 +48,51 @@ const User = () => {
     }, []);
 
     return (
-        <section>
-            <Container>
-                <Row>
-                    <Col lg="12">
-                        <h4 className="fw-bold">Users</h4>
-                    </Col>
-                    <Col lg="12" className="pt-5">
-                        {loading ? (
-                            <h5 className="pt-5 fw-bold">Loading...</h5>
-                        ) : (
-                            <table className="table table-bordered">
-                                <thead>
-                                <tr>
-                                    <th>Image</th>
-                                    <th>Username</th>
-                                    <th>Email</th>
-                                    <th>Action</th>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                {users.length > 0 ? (
-                                    users.map(user => (
-                                        <tr key={user._id}>
-                                            <td><img src={userImg} alt="User" /></td>
-                                            <td>{user.username}</td>
-                                            <td>{user.email}</td>
-                                            <td><button className="btn btn-danger" onClick={() => deleteUser(user._id)}>Delete</button></td>
-                                        </tr>
-                                    ))
-                                ) : (
+        <Helmet title='User'>
+            <section>
+                <Container>
+                    <Row>
+                        <Col lg="12">
+                            <h4 className="fw-bold">Users</h4>
+                        </Col>
+                        <Col lg="12" className="pt-5">
+                            {loading ? (
+                                <h5 className="pt-5 fw-bold">Loading...</h5>
+                            ) : (
+                                <table className="table table-bordered">
+                                    <thead>
                                     <tr>
-                                        <td colSpan="4" className="text-center">No users found</td>
+                                        <th>Image</th>
+                                        <th>Username</th>
+                                        <th>Email</th>
+                                        <th>Action</th>
                                     </tr>
-                                )}
-                                </tbody>
-                            </table>
-                        )}
-                    </Col>
-                </Row>
-            </Container>
-        </section>
+                                    </thead>
+                                    <tbody>
+                                    {users.length > 0 ? (
+                                        users.map(user => (
+                                            <tr key={user._id}>
+                                                <td><img src={userImg} alt="User" /></td>
+                                                <td>{user.username}</td>
+                                                <td>{user.email}</td>
+                                                <td><button className="btn btn-danger" onClick={() => deleteUser(user._id)}>Delete</button></td>
+                                            </tr>
+                                        ))
+                                    ) : (
+                                        <tr>
+                                            <td colSpan="4" className="text-center">No users found</td>
+                                        </tr>
+                                    )}
+                                    </tbody>
+                                </table>
+                            )}
+                        </Col>
+                    </Row>
+                </Container>
+            </section>
+        </Helmet>
+
     );
 };
 
 export default User;
-//1.06

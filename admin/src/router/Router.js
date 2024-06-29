@@ -8,6 +8,7 @@ import Login from "../pages/Login";
 import ProductDetails from "../pages/ProductDetails";
 import User from "../pages/User";
 import SignUp from "../pages/SignUp";
+import Orders from "../pages/Orders";
 
 const Router = () => {
     return(
@@ -19,6 +20,7 @@ const Router = () => {
             <Route path='dashboard/users' element={<User/>}/>
             <Route path='dashboard/all-products' element={<AllProducts/>}/>
             <Route path='dashboard/add-products' element={<AddProduct/>}/>
+            <Route path='dashboard/orders' element={<Orders/>}/>
             <Route path="dashboard/product-detail/:id" element={<ProductDetails />} />
         </Routes>
     ) ;

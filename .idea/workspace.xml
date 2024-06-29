@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1668d6f8-a283-4394-b710-4811e83b129f" name="Changes" comment="add order controller in backend">
+    <list default="true" id="1668d6f8-a283-4394-b710-4811e83b129f" name="Changes" comment="add place order function">
+      <change afterPath="$PROJECT_DIR$/admin/src/pages/Orders.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/style/order.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/models/Order.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/Order.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Checkout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Checkout.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/pages/Dashboard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/pages/Dashboard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/pages/User.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/pages/User.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/router/Router.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/router/Router.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -109,14 +112,7 @@
       <workItem from="1719122181082" duration="23743000" />
       <workItem from="1719211864565" duration="146000" />
       <workItem from="1719217532390" duration="61214000" />
-      <workItem from="1719574122386" duration="21914000" />
-    </task>
-    <task id="LOCAL-00033" summary="update files">
-      <created>1718044528893</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1718044528894</updated>
+      <workItem from="1719574122386" duration="23622000" />
     </task>
     <task id="LOCAL-00034" summary="adding backend files">
       <created>1718045913911</created>
@@ -454,7 +450,14 @@
       <option name="project" value="LOCAL" />
       <updated>1719681437505</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="add place order function">
+      <created>1719684630270</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1719684630270</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -472,7 +475,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update item controller" />
     <MESSAGE value="making connection" />
     <MESSAGE value="drop some files" />
     <MESSAGE value="finish signup and signin" />
@@ -497,6 +499,7 @@
     <MESSAGE value="update admin user delete  function" />
     <MESSAGE value="add dashboard frame and function" />
     <MESSAGE value="add order controller in backend" />
-    <option name="LAST_COMMIT_MESSAGE" value="add order controller in backend" />
+    <MESSAGE value="add place order function" />
+    <option name="LAST_COMMIT_MESSAGE" value="add place order function" />
   </component>
 </project>

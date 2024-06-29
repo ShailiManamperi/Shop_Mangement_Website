@@ -10,15 +10,13 @@ const Dashboard = () =>{
     const [users, setUsers] = useState([]);
     const [loading, setLoading] = useState(false);
     const [items, setItem] = useState([]);
+    const [orders, setOrders] = useState([]);
 
     const getAllItems = async () => {
-        console.log("Fetching Items...");
         setLoading(true);
         try {
             const response = await axios.get("http://localhost:4000/item", { withCredentials: true });
             setItem(response.data.data);
-            console.log(items.length)
-            toast.success('Items fetched successfully.');
         } catch (err) {
             console.log(err);
             toast.error('Something went wrong...');
@@ -37,10 +35,22 @@ const Dashboard = () =>{
             setLoading(false);
         }
     };
+    const getAllOrders = async () => {
+        setLoading(true);
+        try {
+            const response = await axios.get("http://localhost:4000/order", { withCredentials: true });
+            setOrders(response.data.data);
+        } catch (err) {
+            toast.error('Something went wrong...');
+        } finally {
+            setLoading(false);
+        }
+    };
 
     useEffect(() => {
         getAllUsers();
         getAllItems();
+        getAllOrders();
     }, []);
 
     return <Helmet title={'Dashboard'}>
@@ -56,7 +66,7 @@ const Dashboard = () =>{
                     <Col className="lg-3">
                         <div className="orders__box">
                             <h5>Orders</h5>
-                            <span>100</span>
+                            <span>{orders.length}</span>
                         </div>
                     </Col>
                     <Col className="lg-3">
