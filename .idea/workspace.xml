@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1668d6f8-a283-4394-b710-4811e83b129f" name="Changes" comment="update admin logout function">
+    <list default="true" id="1668d6f8-a283-4394-b710-4811e83b129f" name="Changes" comment="update admin user delete  function">
+      <change afterPath="$PROJECT_DIR$/admin/src/style/Dashboard.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/pages/AddProducts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/pages/AddProducts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/pages/AllProducts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/pages/AllProducts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/pages/Dashboard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/pages/Dashboard.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/src/pages/User.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/pages/User.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/controllers/userController.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/userController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/utils/verifyToken.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/utils/verifyToken.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -64,6 +62,7 @@
       <recent name="C:\Users\Dell\Desktop\New folder\test\Shop_Mangement_Website" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dell\Desktop\New folder\test\Shop_Mangement_Website\admin\src\style" />
       <recent name="C:\Users\Dell\Desktop\New folder\test\Shop_Mangement_Website\backend\models" />
       <recent name="D:\Gdse\React_final\Wimalasiri-ecommerce\src\components\Footer" />
       <recent name="D:\Gdse\React_final\Wimalasiri-ecommerce\src\components\Header" />
@@ -112,14 +111,7 @@
       <workItem from="1719122181082" duration="23743000" />
       <workItem from="1719211864565" duration="146000" />
       <workItem from="1719217532390" duration="61214000" />
-      <workItem from="1719574122386" duration="12928000" />
-    </task>
-    <task id="LOCAL-00030" summary="update checkout section">
-      <created>1717781619010</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1717781619010</updated>
+      <workItem from="1719574122386" duration="16058000" />
     </task>
     <task id="LOCAL-00031" summary="update checkout section 2">
       <created>1717838314196</created>
@@ -457,7 +449,14 @@
       <option name="project" value="LOCAL" />
       <updated>1719588408398</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="update admin user delete  function">
+      <created>1719675853100</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1719675853100</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -475,7 +474,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update auth controller with login function" />
     <MESSAGE value="update auth controller with token verify" />
     <MESSAGE value="Add document file" />
     <MESSAGE value="update item controller" />
@@ -500,6 +498,7 @@
     <MESSAGE value="update admin login &amp; signup" />
     <MESSAGE value="update adminNav File" />
     <MESSAGE value="update admin logout function" />
-    <option name="LAST_COMMIT_MESSAGE" value="update admin logout function" />
+    <MESSAGE value="update admin user delete  function" />
+    <option name="LAST_COMMIT_MESSAGE" value="update admin user delete  function" />
   </component>
 </project>
