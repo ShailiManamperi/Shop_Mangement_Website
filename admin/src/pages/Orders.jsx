@@ -50,7 +50,7 @@ const Orders = () =>{
                                       <th>Order Id</th>
                                       <th>Customer Name</th>
                                       <th>Customer Address</th>
-                                      <th>Customer Contacct</th>
+                                      <th>Customer Contact</th>
                                       <th>Item/Items</th>
                                       <th>Total Amount</th>
                                   </tr>

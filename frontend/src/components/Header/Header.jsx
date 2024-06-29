@@ -85,13 +85,6 @@ const Header = () => {
                                 <i className="ri-shopping-bag-line"></i>
                                 <span className="badge">{totalQuantity}</span>
                             </span>
-                            <div className="profile" onClick={navigateToLogin}>
-                                <motion.img
-                                    whileTap={{ scale: 1.2 }}
-                                    src={userIcon}
-                                    alt="usericon"
-                                />
-                            </div>
                             <div className="mobile__menu">
                                 <span onClick={menuToggle}>
                                     <i className="ri-menu-line"></i>

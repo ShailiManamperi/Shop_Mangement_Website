@@ -1,14 +1,15 @@
-import React, {useState} from "react";
-import {Navigate} from "react-router-dom";
-import Cookies from 'js-cookie';
-import { Outlet } from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import { Navigate } from "react-router-dom";
+import Cookies from "js-cookie";
 
-
-const ProtectedRoute = () =>{
+const ProtectedRoute = ({ children }) => {
     const [username, setUsername] = useState('');
-    setUsername(Cookies.get("user"));
-    return username ? <Outlet/> : <Navigate to={'/login'}/>;
 
+    useEffect(() => {
+        setUsername(Cookies.get("user")); // Set username once when component mounts
+    }, []); // Empty dependency array ensures this effect runs only once
+
+    return username ? children : <Navigate to={'/login'} />;
 }
 
 export default ProtectedRoute;
