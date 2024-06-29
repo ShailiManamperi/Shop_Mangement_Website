@@ -14,7 +14,6 @@ const User = () => {
         setLoading(true);
         try {
             const response = await axios.get("http://localhost:4000/users", { withCredentials: true });
-            console.log(response.request);
             setUsers(response.data.data);
             toast.success('Users fetched successfully.');
         } catch (err) {
@@ -22,6 +21,23 @@ const User = () => {
             toast.error('Something went wrong...');
         } finally {
             setLoading(false);
+        }
+    };
+    const deleteUser = async (userId) => {
+        console.log(`Deleting user with id: ${userId}`);
+        const headers = {
+            'Content-Type': 'application/json',
+        };
+        try {
+            await axios.delete(`http://localhost:4000/users/${userId}`, {
+                withCredentials: true,
+                headers: headers,
+            });
+            setUsers(users.filter(user => user._id !== userId));
+            toast.success('User deleted successfully.');
+        } catch (err) {
+            console.log(err);
+            toast.error('Failed to delete user.');
         }
     };
 
@@ -56,7 +72,7 @@ const User = () => {
                                             <td><img src={userImg} alt="User" /></td>
                                             <td>{user.username}</td>
                                             <td>{user.email}</td>
-                                            <td><button className="btn btn-danger">Delete</button></td>
+                                            <td><button className="btn btn-danger" onClick={() => deleteUser(user._id)}>Delete</button></td>
                                         </tr>
                                     ))
                                 ) : (
