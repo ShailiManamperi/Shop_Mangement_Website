@@ -17,10 +17,8 @@ const User = () => {
             const response = await axios.get("http://localhost:4000/users", { withCredentials: true });
             setUsers(response.data.data);
             console.log(users.length)
-            toast.success('Users fetched successfully.');
         } catch (err) {
             console.log(err);
-            toast.error('Something went wrong...');
         } finally {
             setLoading(false);
         }

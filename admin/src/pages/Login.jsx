@@ -32,10 +32,9 @@ const Login = () => {
             email: email,
             password: password
         }
+        console.log(body);
 
         axios.post("http://localhost:4000/auth/login", body, {headers: headers}).then(r => {
-            console.log(r)
-            console.log()
             Cookies.set("token", r.data.token);
             Cookies.set("user_email", r.data.data.email);
             navigate("/dashboard");

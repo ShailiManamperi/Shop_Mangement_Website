@@ -19,10 +19,8 @@ const AllProducts = () =>{
             const response = await axios.get("http://localhost:4000/item", { withCredentials: true });
             setItem(response.data.data);
             console.log(items.length)
-            toast.success('Items fetched successfully.');
         } catch (err) {
             console.log(err);
-            toast.error('Something went wrong...');
         } finally {
             setLoading(false);
         }

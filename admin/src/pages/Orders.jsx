@@ -18,10 +18,8 @@ const Orders = () =>{
             const response = await axios.get("http://localhost:4000/order", { withCredentials: true });
             setOrders(response.data.data);
             console.log(orders)
-            toast.success('Users fetched successfully.');
         } catch (err) {
             console.log(err);
-            toast.error('Something went wrong...');
         } finally {
             setLoading(false);
         }
