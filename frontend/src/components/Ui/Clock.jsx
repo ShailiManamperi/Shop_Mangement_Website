@@ -12,7 +12,7 @@ const Clock = () => {
     let interval;
 
     const countdown = ()=>{
-        const destination = new Date('Apr 30,2024').getTime()
+        const destination = new Date('Apr 30,2025').getTime()
         interval = setInterval(()=>{
             const now = new Date().getTime()
             const different = destination - now;
@@ -66,6 +66,5 @@ const Clock = () => {
             </div>
         </div>
     )
-
 };
 export default Clock;

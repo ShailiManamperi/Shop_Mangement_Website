@@ -1,10 +1,11 @@
 import React, {useEffect, useState} from "react";
-import { Container,Row,Col} from "reactstrap";
+import {Container, Row, Col, Button} from "reactstrap";
 import Productimg from '../assets/images/double-sofa-03.png';
 import '../style/allProducts.css';
 import axios from "axios";
 import {toast} from "react-toastify";
 import userImg from "../assets/images/user-icon.png";
+import {Link} from "react-router-dom";
 
 
 const AllProducts = () =>{
@@ -33,6 +34,9 @@ const AllProducts = () =>{
     return <section>
         <Container>
             <Row>
+                <Col>
+                    <Button className={'add-product'}><Link to="/dashboard/add-products">Add-Product</Link></Button>
+                </Col>
                 <Col lg='12'>
                     <table className={'table table-bordered'}>
                         <thead>

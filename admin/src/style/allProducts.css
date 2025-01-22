@@ -9,3 +9,7 @@ td i{
 td,th{
     color: var(--primary-color);
 }
+.add-product{
+    margin-bottom: 20px;
+    margin-left: 90%;
+}

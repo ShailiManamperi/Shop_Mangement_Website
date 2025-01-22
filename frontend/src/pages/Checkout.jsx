@@ -35,6 +35,7 @@ const Checkout = () => {
             cartItems: cartItems,
             totalAmount: totalAmount
         };
+        console.log("orderDetails "+orderDetails);
 
         axios.post('http://localhost:4000/order', orderDetails, { headers: headers, withCredentials: true })
             .then(response => {
